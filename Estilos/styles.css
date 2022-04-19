@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #081c15;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: 'Vollkorn', serif;
 }
 header{
@@ -71,6 +71,8 @@ nav ul li a:hover{
     border-radius: 10px;
     width: 100px;
     height: 25px;
+    box-shadow: 2px 2px 2px black;
+    opacity: 0.8;
 }
 
 /** MAIN **/
