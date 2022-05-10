@@ -1,0 +1,21 @@
+@media (min-width: 375px) and (max-width: 992px){
+    .categorias{
+        display: none;
+    }
+    .recomendaciones1{
+        grid-column-start: span 2;
+
+        .recomendacioness{
+            .card{
+                width: 50px;
+                height: 100px;
+                    img{
+                        width: 50px;
+                        height: 100px;
+                        object-fit: cover;
+                    }
+            }
+        }
+
+    }
+}

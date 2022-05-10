@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Nunito:ital,wght@1,300&family=Roboto:wght@300;500&display=swap');
+@import "queries";
+$font-h2: 'Montserrat', sans-serif;
+$font-h1: 'Roboto', sans-serif;
+$font-p: 'Nunito', sans-serif;
+$color-bg: #fdfdff;
+
+
+    .main-peliculas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1f 1f;
+    
+        h1{
+            font-family: $font-h1;
+            color:$color-bg;
+            font-size: 2rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 0 50%;
+        }
+    
+        h2{
+            font-family: $font-h2;
+            font-size: 1.5rem;
+            color: $color-bg;
+        }
+    
+        .peliculas{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+            justify-content: space-between;
+            row-gap: 10px;
+    
+            .peliculas-card{
+                img{
+                    width: 200px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+    
+            }
+        }
+    
+    }
+

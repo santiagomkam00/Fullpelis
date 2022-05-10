@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo-footer{
+        width: 2rem;
+        height: 2rem;
+        margin: 1rem;
+
+        img{
+            @extend .logo-footer;
+        }
+    }
+}
