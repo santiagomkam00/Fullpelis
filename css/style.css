@@ -34,6 +34,7 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: 1f 1f; }
   .main-peliculas .marvel {
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -84,6 +85,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     padding: 10px; }
+    body header nav .logotext {
+      font-family: 'Nunito', sans-serif; }
     body header nav .marvelnav {
       color: #fa0303 !important; }
   body .hero-container {
