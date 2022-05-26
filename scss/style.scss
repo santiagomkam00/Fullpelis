@@ -10,7 +10,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #152656;
     font-family: $font-p;
@@ -21,14 +20,14 @@ body{
             font-weight: 700;
             text-transform: uppercase;
             padding: 10px;
-
-            .logotext{
-                font-family: 'Nunito', sans-serif;
-            }
-
-            .marvelnav{
-                color: rgb(250, 3, 3) !important;
-            }
+                .container-fluid{
+                    .logotext{
+                        font-family: 'Nunito', sans-serif !important;
+                    }
+                    .marvelnav{
+                        color: rgb(250, 3, 3) !important;
+                    }
+                }
         }
     }
     

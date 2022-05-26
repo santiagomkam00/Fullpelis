@@ -85,9 +85,9 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     padding: 10px; }
-    body header nav .logotext {
-      font-family: 'Nunito', sans-serif; }
-    body header nav .marvelnav {
+    body header nav .container-fluid .logotext {
+      font-family: 'Nunito', sans-serif !important; }
+    body header nav .container-fluid .marvelnav {
       color: #fa0303 !important; }
   body .hero-container {
     cursor: pointer;
